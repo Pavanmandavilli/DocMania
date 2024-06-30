@@ -10,7 +10,7 @@ def home():
     st.markdown('<p style="color: aqua;">First upload your documents in **Document Management** then ask your questions</p>', unsafe_allow_html=True)
     with st.sidebar:
         st.markdown('<h3 style="color: orange;">Document Management</h3>', unsafe_allow_html=True)
-        st.image("./static/folders.png",width=100,use_column_width=100)
+        # st.image("./static/folders.png",width=100,use_column_width=100)
 
         uploaded_files = st.file_uploader("Upload PDF files", type="pdf", accept_multiple_files=True)
 
