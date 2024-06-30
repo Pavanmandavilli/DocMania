@@ -1,5 +1,4 @@
 import os
-import textwrap
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
