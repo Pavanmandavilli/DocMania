@@ -1,12 +1,12 @@
 import os
 import textwrap
 from langchain_huggingface import HuggingFaceEndpoint
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA, LLMChain
 from langchain.chains.combine_documents.stuff import StuffDocumentsChain
-from langchain.document_loaders import PyPDFLoader, DirectoryLoader
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.prompts import PromptTemplate
 from pathlib import Path
 from dotenv import load_dotenv
