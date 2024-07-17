@@ -11,3 +11,4 @@
  python-dotenv
  streamlit-extras
  streamlit-navigation-bar
+ sqlite3>=3.35.0
